@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96765e0d-bedc-4087-b3cb-e466da549d88" name="Changes" comment="Personal Project few changes in Splash Screen: Add a picture.">
+    <list default="true" id="96765e0d-bedc-4087-b3cb-e466da549d88" name="Changes" comment="add links for my videos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REPORT.md" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,12 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701833388629</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add links for my videos">
+      <option name="closed" value="true" />
+      <created>1701839316047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701839316047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Personal Project" />
     <MESSAGE value="Personal Project few changes in Splash Screen: Add a picture." />
-    <option name="LAST_COMMIT_MESSAGE" value="Personal Project few changes in Splash Screen: Add a picture." />
+    <MESSAGE value="add links for my videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add links for my videos" />
   </component>
 </project>
