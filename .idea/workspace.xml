@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96765e0d-bedc-4087-b3cb-e466da549d88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="96765e0d-bedc-4087-b3cb-e466da549d88" name="Changes" comment="Personal Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REPORT.md" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/Main.java" afterDir="false" />
@@ -57,6 +56,9 @@
       <recent name="C:\Users\inomo\My current Classes\UNB\fall 2023 semester 2nd\CS 3035 - Building User Interfaces\individual-project-p655nUNB3035\src\main\resources" />
       <recent name="C:\Users\drsco\IdeaProjects\Individual Project" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\inomo\My current Classes\UNB\fall 2023 semester 2nd\CS 3035 - Building User Interfaces\individual-project-p655nUNB3035\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="unb.cs3035.individualproject" />
     </key>
@@ -103,6 +105,19 @@
       <option name="presentableId" value="Default" />
       <updated>1698891077660</updated>
     </task>
+    <task id="LOCAL-00001" summary="Personal Project">
+      <option name="closed" value="true" />
+      <created>1701773437698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701773437698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Personal Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Personal Project" />
   </component>
 </project>

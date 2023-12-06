@@ -1,10 +1,21 @@
 package unb.cs3035.individualproject;
 
+import javafx.animation.FadeTransition;
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
+import javafx.util.Duration;
+
+import java.util.Objects;
 
 public class Main extends Application {
     public static Screen primaryScreen = Screen.getPrimary();
@@ -18,13 +29,57 @@ public class Main extends Application {
     public static final Controller controller = new Controller();
     public static Stage primaryStage;
     public static Scene mainScene;
+    Stage splashStage;
     @Override
     public void start(Stage primaryStage) throws Exception {
+
         Main.primaryStage = primaryStage;
 
         primaryStage.setTitle("Personal Organizer");
         mainScene = new Scene(view,bounds.getWidth(),bounds.getHeight());
-        primaryStage.setScene(mainScene);
+
+        //Splash Screen
+        Image addImage = new Image(getClass().getClassLoader().getResourceAsStream("mobile.jpg"));
+        ImageView imageView = new ImageView(addImage);
+        imageView.setFitWidth(bounds.getWidth());
+        imageView.setFitHeight(bounds.getHeight());
+
+        StackPane stackPane = new StackPane(imageView);
+        stackPane.setStyle("-fx-background-color: #336699;"); // Set background color
+        Label label = new Label("My Personal Organizer");
+        label.setStyle("-fx-text-fill: white; -fx-font-size: 24px;");
+
+        StackPane spacer = new StackPane();
+        // Set a width for the left spacer
+        spacer.setMinWidth(400);
+
+        HBox hBox = new HBox(label,spacer);
+        hBox.setAlignment(Pos.CENTER);
+
+        stackPane.getChildren().add(hBox);
+
+        Scene scene = new Scene(stackPane);
+        primaryStage.setScene(scene);
+
+        // fade effect
+        FadeTransition fadeIn = new FadeTransition(Duration.seconds(3), hBox);
+        fadeIn.setFromValue(0);
+        fadeIn.setToValue(1);
+        fadeIn.setCycleCount(1);
+
+        FadeTransition fadeOut = new FadeTransition(Duration.seconds(3), hBox);
+        fadeOut.setFromValue(1);
+        fadeOut.setToValue(0);
+        fadeOut.setCycleCount(1);
+
+        fadeIn.play();
+
+        fadeIn.setOnFinished((e) -> fadeOut.play());
+
+        fadeOut.setOnFinished((e) -> {
+            Main.primaryStage.setScene(Main.mainScene);
+
+        });
 
         System.out.println("Your screen Width: " + mainScene.getWidth() + " Height: " + mainScene.getHeight());
 
@@ -46,11 +101,8 @@ public class Main extends Application {
         view.doneListWidget.addItem("Example 2: Buy a present for my friend.");
         view.doneListWidget.addItem("Example 3: Do assignment 3.");
 
-
         primaryStage.setMaximized(true);
         primaryStage.show();
 
     }
-
-
 }
