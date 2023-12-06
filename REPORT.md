@@ -67,7 +67,11 @@ Model get data from widget that is implemented in the controller class. When new
 
 - Provide a link to your video that is easily viewable.
 
+Tutorial video:
+https://unbcloud-my.sharepoint.com/:v:/g/personal/p655n_unb_ca/EUfDedmu2WxJrHhVk8z4UR8BCRiLeSDMbQDUquSQaFY7Pw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Zl2m0J
 
+3.5min video:
+https://unbcloud-my.sharepoint.com/:v:/g/personal/p655n_unb_ca/EWo1ntNHEjhDncufxyjl5QUBpRW0Eol8tt8c8WkpBQdMhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fdJ8GF
 
 
 
