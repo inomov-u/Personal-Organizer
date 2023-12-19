@@ -1,56 +1,49 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/egUAGPkZ)
-# CS 3035 - Individual Project - Fall 2023
+# Individual Project: OrganizeMe
 
-## Project Description
-In this project you will put what you have learned in class into practice, and extend what you have learned to create a 
-desktop app that allows editing different objects.
+## Project Overview
 
-Your project is to be completed individually.
+Welcome to OrganizeMe, a JavaFx desktop application designed to revolutionize your daily organization. Inspired by a personal productivity system used and refined over five years, this application brings your to-do lists, calendars, projects, and someday/maybe lists to a single, streamlined platform.
 
-## Due Date
-***December 5th, 2023***
+## Key Features
 
-## Requirements
+### What OrganizeMe is Useful For:
 
-You will select an application area for your project that is of interest to you, but that fulfills the requirements below.
+***Create and Manage Your:***
+- To-Do Lists
+- Calendars
+- Projects
+- Someday/Maybe Lists
 
-### Implementation Requirements
+## Implementation Requirements
 
-- Your application should follow good design heuristics
-- Your application should also employ CRAP design as much as possible
-- Your application must use an MVC design
-- Your application should provide at least two different views for some aspect of your model
-- Your application should have a splash screen, a menu bar (with appropriate content), a Help menu
-- The Help Menu should include a Help Screen, and an About that Displays your "company logo" and your name
-- Your application must provide a consistent and appropriate look and feel (i.e., colors, fonts, etc.) for your project
-- Your application should contain at least one custom designed widget that appropriately allows you to enter and display information about some aspect of your domain objects
-- Your application should allow interacting and entering model information for at least 3 different types of domain objects (e.g., a calendar app might allow you to create/edit/delete users, meetings, and holidays)
-- Domain objects should be able to be created, edited/updated/changed and deleted as appropriate through user or system actions
-- Provide a set of exemplary domain objects that are pre-populated in your application
-- Your application does not need to save its updated state when it is closed (i.e., the system will return to its original state upon restarting)
-- Be creative - some points will be reserved for the complexity/creativity of the projects, but do not go too far
+To ensure a seamless user experience and effective functionality, OrganizeMe adheres to the following implementation requirements:
 
-### Example Project Ideas
+- **Good Design Heuristics:** The application prioritizes good design principles for optimal usability.
 
-- A media organization/player app
-- The ultimate todo app
-- A personal budgeting app
-- A simple 2D RPG game
-- A tool to create RPG characters or plan simple campaigns
-- A data charting tool... enter data and create charts
-- Recreate an app you like in JavaFX
-- Your own idea! If in doubt check with Scott.
+- **CRAP Design Implementation:** Emphasis is placed on Contrast, Repetition, Alignment, and Proximity for a visually appealing interface.
 
-### Project Deliverables
+- **MVC Design:** The application follows the Model-View-Controller (MVC) architecture for efficient data management and presentation.
 
-- a short one-page report describing your project, available in REPORT.md
-- a video demonstration of your app (no longer than 3.5 mins long, if it's shorter that's fine). The video can be narrated, but should demonstrate all the main functionality of your app. Upload your videos to Streams and share the link in your report.
+- **Multiple Views:** OrganizeMe offers two distinct views for certain aspects of the model, enhancing user flexibility.
 
-## Resources
-- [JavaFX Splash Screen](https://www.genuinecoder.com/javafx-splash-screen-loading-screen/)
+- **Splash Screen:** A captivating splash screen welcomes users upon application launch.
 
-## Assessment
+- **Menu Bar:** Featuring relevant content, the menu bar includes a Help menu for user assistance.
 
-- Points will be awarded based on meeting the requirements above, providing a fully working, bug/error free system that follows basic principles of usability discussed in the lectures.
+- **Help Menu:** A comprehensive Help menu includes a Help Screen and an About section, displaying the application logo and creator's name.
 
-- A small portion of the projects grade will be awarded for creativity/complexity of your project (~10%) 
+- **Consistent Look and Feel:** The application maintains a cohesive and appropriate visual identity, encompassing colors, fonts, and overall aesthetics.
+
+- **Custom Widgets:** OrganizeMe boasts several custom-designed widgets facilitating information entry and display.
+
+- **Interaction with Model:** Users can interact with and enter information for at least three different types of domain objects.
+
+- **Domain Object Management:** The application allows the creation, editing, updating, changing, and deletion of domain objects through user-friendly actions.
+
+- **Exemplary Domain Objects:** A set of exemplary domain objects is pre-populated to provide users with a starting point.
+
+![Main View](src/main/resources/personal organizer.png)
+
+## Additional Details
+
+For a deeper understanding of the OrganizeMe project, refer to the one-page report available in [REPORT.md](REPORT.md). This report delves into the project's intricacies, providing valuable insights into its development and functionality.

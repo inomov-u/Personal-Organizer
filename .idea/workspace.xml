@@ -4,29 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96765e0d-bedc-4087-b3cb-e466da549d88" name="Changes" comment="add additional link because tutorial video is not working when I try to access it from another device. Maybe because my video is a bit long for the system. Its 10 min long.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/CalendarModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/CalendarWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/ClockWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/DoneListWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/NextActionListWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/ProjectBreakerWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/ProjectListWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/SomedayMaybeWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/StatisticalView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unb/cs3035/individualproject/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Clear Green Button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Minus Red Button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/New Document.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Remove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/notes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/todo.jpg" afterDir="false" />
+    <list default="true" id="96765e0d-bedc-4087-b3cb-e466da549d88" name="Changes" comment="When I checked my github repo i noticed that none of my classes were added because when I was creating the classes I said no when intelij asked me to add class to git. I manually add all classes now.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/personal organizer.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT.md" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701840444304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="When I checked my github repo i noticed that none of my classes were added because when I was creating the classes I said no when intelij asked me to add class to git. I manually add all classes now.">
+      <option name="closed" value="true" />
+      <created>1701841736800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701841736800</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +154,7 @@
     <MESSAGE value="Personal Project few changes in Splash Screen: Add a picture." />
     <MESSAGE value="add links for my videos" />
     <MESSAGE value="add additional link because tutorial video is not working when I try to access it from another device. Maybe because my video is a bit long for the system. Its 10 min long." />
-    <option name="LAST_COMMIT_MESSAGE" value="add additional link because tutorial video is not working when I try to access it from another device. Maybe because my video is a bit long for the system. Its 10 min long." />
+    <MESSAGE value="When I checked my github repo i noticed that none of my classes were added because when I was creating the classes I said no when intelij asked me to add class to git. I manually add all classes now." />
+    <option name="LAST_COMMIT_MESSAGE" value="When I checked my github repo i noticed that none of my classes were added because when I was creating the classes I said no when intelij asked me to add class to git. I manually add all classes now." />
   </component>
 </project>
